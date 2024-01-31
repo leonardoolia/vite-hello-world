@@ -13,3 +13,9 @@ export default {
     </header>
 </template>
 
+<style>
+h1 {
+    text-align: center;
+}
+</style>
+
