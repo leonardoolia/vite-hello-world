@@ -1,15 +1,18 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 export default {
   name: 'HelloWorld',
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 </script>
 
 <template>
   <AppHeader />
+  <AppMain />
 </template>
 
 <style>
